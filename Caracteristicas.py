@@ -32,7 +32,7 @@ def tem_hd_sd(nome):
 def eh_kit(nome):
     return 'kit' in nome.lower()
 
-# Aplicar funções
+
 df['marca'] = df['nome'].apply(marca)
 df['cor'] = df['nome'].apply(cor)
 df['tem_lente'] = df['nome'].apply(tem_lente)
